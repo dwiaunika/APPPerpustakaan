@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.89" />
+    <PackageReference Include="guna.ui2.winforms" Version="2.0.4.8" />
+    <PackageReference Include="microsoft.data.sqlite" Version="10.0.13" />
+    <PackageReference Include="microsoft.web.webview2" Version="1.0.4258.31" />
+    <PackageReference Include="newtonsoft.json" Version="13.0.4" />
+  </ItemGroup>
+
+</Project>
